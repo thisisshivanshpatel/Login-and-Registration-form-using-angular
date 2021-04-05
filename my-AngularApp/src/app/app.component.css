@@ -1,0 +1,80 @@
+.sbutton
+{
+    padding: 15px 15px;
+    color: white;
+    background-color:darkmagenta;
+    border-radius: 15px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.sbutton:hover
+{
+    opacity: 0.8;
+}
+
+input
+{
+    margin-top: 15px;
+
+    width: 100%;
+    padding: 12px 20px;
+  /*  margin: 8px 0;*/
+    box-sizing: border-box;
+    border: solid 2px #17141d;
+  /*  border-radius: 15px;*/
+ /*  -moz-border-radius: 15px;*/
+    outline: none;
+}
+
+label
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.heading
+{
+  padding: 20px 20px;
+  border-radius: 20px;
+  background-color: #ffe9c5;
+  box-shadow: -1rem 0 3rem #000;
+  margin-top: 7px;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  width: 50%;
+}
+
+
+.parent
+{
+    display: grid;
+    place-items: center;
+}
+
+.parent1
+{
+    display: grid;
+    place-items: center;
+}
+
+.RegistrationCard
+{
+  height: 510px;
+  width: 50%;
+  color: antiquewhite;
+  text-transform: capitalize;
+  font-size: 23px;
+  text-align: center;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  margin-top: 15px;
+}
